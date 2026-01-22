@@ -1,117 +1,188 @@
-🏫 School Fee & Ledger Manager
+🏫 School Fee & Ledger Manager v2.0.0
 
-A powerful desktop-based School Fee Management System built using Python, Tkinter, and SQLite.
-This application allows schools to manage student fees, payments, sibling billing, receipts, audit logs, and financial reports in an easy and efficient way.
+A secure, multi-user, desktop-based School Fee & Ledger Management System built using Python, Tkinter, and SQLite.
+This version is a major upgrade over v1.0, transforming the application into a complete school accounting & ledger solution.
 
-⭐ Features
+⭐ Key Highlights (v2.0 Upgrade)
+
+🔐 Role-based authentication (Admin / Staff)
+
+👨‍👩‍👧 Advanced family & sibling billing system
+
+🧾 Single & family receipt generation
+
+📊 Financial dashboard & expense tracking
+
+👩‍🏫 Teacher, salary & referral management
+
+🎓 Academic promotion system with history & undo
+
+🔒 Encrypted automatic database backups
+
+🕵️ Complete audit trail system
+
 🎓 Student & Fee Management
 
-Add, update and manage student fee records
+Add, update & manage student fee records
 
 Auto calculation of Total / Paid / Balance
 
 Monthly & yearly filtering
 
-Student data table with sorting and search
+Search & sort student data table
 
-👨‍👩‍👧 Family / Sibling Billing System
+Zero-amount & balance-safe handling
 
-Unique Family ID system
+👨‍👩‍👧 Family / Sibling Billing System (Enhanced)
 
-Waterfall fee distribution logic
+Unique Family ID–based accounting
 
-Auto sibling detection & summary
-
-Highlight siblings when selected
+Accurate family-level balance carry-forward
 
 Combined Family Total / Paid / Balance
 
-🧾 Receipt Generation
+Auto sibling detection & visual highlighting
+
+Family-wise filtering & summary view
+
+Shared family receipt support
+
+support
+
+🧾 Receipt Generation (Upgraded)
+
+Single-student & family-wise receipts
 
 Thermal & PDF receipt support
 
 Auto receipt number generation
 
-Saves receipts safely in Receipts folder
+Dynamic receipt height (item-based)
 
-Supports multiple payment modes
+Multiple payment modes
 
-Admin/Staff receipt tracking
+Organized receipt storage
 
-🕵️ Audit Trail System
+Admin / Staff receipt audit tracking
 
-Logs every important action:
+📊 Financial Dashboard & Ledger
 
-Insert
+Monthly financial overview:
 
-Update
+Expected Fees
 
-Delete
+Paid Amount
 
-Login
+Pending Dues (family-aware)
 
-Receipt Print
+Expenses
 
-Filters
+Net Collection
 
-Color-coded activity display
+School expense management module
 
-Only Admin can view logs
+Accurate net profit calculation
 
-🔍 Smart Filters & Reports
+👩‍🏫 Teacher, Salary & Referral Management
 
-Filter by month & year
+Teacher master records
 
-Search by name / class
+Salary calculation & payment tracking
 
-Smart summary bar
+Referral & commission management
 
-Due-highlight system
+Safe referral split logic
 
-💾 Secure Local Database
+Referral recovery from salaries
 
-SQLite based storage
+Complete referral & recovery history
 
-Backup support
+🎓 Academic Promotion System
 
-Error-safe system
+Class promotion with preview
+
+Academic year locking (prevents duplicate promotions)
+
+Promotion history tracking
+
+Undo last promotion (Admin only)
+
+🕵️ Audit Trail System (Expanded)
+
+Logs every critical action:
+
+Login / Logout
+
+Insert / Update / Delete
+
+Receipt printing
+
+Expense operations
+
+User management
+
+Promotions & filters
+
+✔ Color-coded display
+✔ Admin-only access
+
+🔐 Security & Data Safety
+
+Role-based access control (Admin / Staff)
+
+Secure password hashing
+
+Encrypted automatic database backups
+
+Safe schema migrations (no data loss)
+
+Error-safe operations
 
 🖥 Desktop Software
 
-Converted to Windows EXE application
+Converted to Windows EXE
 
-Can run without Python
+Runs without Python installed
 
 User-friendly interface
 
-| Component | Technology  |
-| --------- | ----------- |
-| GUI       | Tkinter     |
-| Database  | SQLite      |
-| Receipts  | ReportLab   |
-| Packaging | PyInstaller |
-| Language  | Python      |
+Optimized for school office usage
 
+| Component         | Technology  |
+| ----------------- | ----------- |
+| GUI               | Tkinter     |
+| Database          | SQLite      |
+| Receipts          | ReportLab   |
+| Backup Encryption | Fernet      |
+| Packaging         | PyInstaller |
+| Language          | Python      |
 🔽 Download Executable
 
-Download the latest build from Releases Section:
-https://github.com/Aditya240302/Student-Fee-Ledger-Manager/releases/tag/v1.0
+Download the latest version (v2.0.0) from GitHub Releases:
+👉 https://github.com/Aditya240302/Student-Fee-Ledger-Manager/releases
 
 👤 User Roles
+👑 Admin
 
-Admin
+Full system control
 
-Full control
+View audit logs
 
-Can view audit logs
+Manage users
 
-Can delete & update records
+Manage expenses
 
-Staff
+Promote students
+
+Undo promotions
+
+👨‍💼 Staff
 
 Limited access
 
 Cannot access restricted sections
+
+Cannot view audit logs
 
 📝 Audit Logs Example
 
@@ -138,3 +209,8 @@ pyinstaller --noconsole --onefile test.py
 
 Aditya Jaiswal
 Python | Tkinter | Database Applications
+
+🚀 Version
+
+Current Version: v2.0.0
+Previous Version: v1.0
